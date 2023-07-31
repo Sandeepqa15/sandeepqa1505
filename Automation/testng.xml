@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Annotation.CustomerModule"/>
+      <class name="com.actitime.testng.Assert1"/>
+      <class name="com.actitime.testng.CustomerModule"/>
+      <class name="com.actitime.testng.Screenshot"/>
+      <class name="com.actitime.POM.TestLogin"/>
+      <class name="com.actitime.testng.DemoCustomer"/>
+      <class name="com.actitime.testng.ProjectModule"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
